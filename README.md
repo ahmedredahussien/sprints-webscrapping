@@ -11,6 +11,7 @@
 ## Git Commands
 ## initial push
 ```bash
+1. Navigate to Your Project's Root Directory:
 git init
 git remote add origin https://github.com/ahmedredahussien/sprints-webscrapping.git
 git add .
