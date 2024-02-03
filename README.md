@@ -9,7 +9,7 @@
 ---
 
 ## Git Commands
-## initial push
+### initial push
 ```bash
 git init
 git remote add origin https://github.com/ahmedredahussien/sprints-webscrapping.git
@@ -29,7 +29,7 @@ git commit README.md -m "add git steps to feature branch""
 > Normal commit push after 1st time :  
 git push origin master
 ```
-## After meging with master
+### After meging with master
 ```bash
 git checkout master
 git merge my-feature
@@ -41,7 +41,7 @@ git branch -D feature/my-feature
 
 ```
 
-## Force push with overwrite  : 
+### Force push with overwrite  : 
 ```bash
 git push -u --force origin master
 
