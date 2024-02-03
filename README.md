@@ -22,6 +22,7 @@ git push -u origin master
 
 ### OnGoing changes
 ```bash
+git checkout -b my-feature
 git commit README.md -m "add git steps" 
 > Normal commit push after 1st time :  
 git push origin master
