@@ -23,6 +23,8 @@ git push -u origin master
 ### OnGoing changes
 ```bash
 git checkout -b my-feature
+> Optional in case that its new file:
+ git add README.md
 git commit README.md -m "add git steps to feature branch"" 
 > Normal commit push after 1st time :  
 git push origin master
