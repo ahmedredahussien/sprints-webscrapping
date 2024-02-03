@@ -44,8 +44,9 @@ git branch -D feature/my-feature
 ### Force push with overwrite  : 
 ```bash
 git push -u --force origin master
+```
 
-## Force overwrite my local changes from remote version : 
+### Force overwrite my local changes from remote version : 
 ```bash
 git reset --hard origin/master
 
