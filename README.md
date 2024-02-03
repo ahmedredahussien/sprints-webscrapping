@@ -29,7 +29,23 @@ git commit README.md -m "add git steps to feature branch""
 > Normal commit push after 1st time :  
 git push origin master
 ```
+After meging with master
+```bash
+git checkout master
+git merge my-feature
+git push origin master
+> Normal delete :
+git branch -d feature/my-feature
+> Force delete :
+git branch -D feature/my-feature
 
-## Force overwrite push : 
+```
+
+## Force push with overwrite  : 
 ```bash
 git push -u --force origin master
+
+## Force overwrite my local changes from remote version : 
+```bash
+git reset --hard origin/master
+
